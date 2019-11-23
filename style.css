@@ -26,7 +26,7 @@ html, body {
 			slide:nth-child(1) {
 			left: 0%
 			animation-delay: -1s;
-			background-image: url(1.jpg);
+			background-image: url(/images/myfavpart.jpg);
 			background-size: cover;
 			background-position: center;
 			}
@@ -34,7 +34,7 @@ html, body {
 						slide:nth-child(2) {
 
 			animation-delay: 2s;
-			background-image: url(2.jpg);
+			background-image: url(/images/myfavpart.jpg);
 			background-size: cover;
 			background-position: center;
 			}
@@ -42,20 +42,20 @@ html, body {
 						slide:nth-child(3) {
 			left: 0%
 			animation-delay: 5;
-			background-image: url(3.jpg);
+			background-image: url(/images/myfavpart.jpg);
 			background-size: cover;
 			background-position: center;
 			}
 						slide:nth-child(4) {
 			left: 0%
 			animation-delay: 8;
-			background-image: url(4.jpg);
+			background-image: url(/images/myfavpart.jpg);
 			background-size: cover;
 			background-position: center;
 			}
 			
 			slide p {
-			font-family: Comfortaa;
+			font-family: Comforta;
 			font-size: 70px;
 			text-align: center;
 			display: inline-block;
