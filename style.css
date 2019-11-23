@@ -29,13 +29,13 @@ input,select{vertical-align:middle}
 .grid-item {
     min-height: 100px;
     text-align: center;
-    background-image: #ddd;
+    background: #ddd;
     font-size: 22px;
     padding-top: 40px;
     color: #555;
     font-weight: bold;
 }
-.grid-item:nth-child(1)	{	background-image: url(https://github.com/jacob704/reliquary/blob/master/images/blueslidepark.jpg);	height: 200px;	}
+.grid-item:nth-child(1)	{	background: #D5B6DE;	height: 200px;	}
 .grid-item:nth-child(2)	{	background: #EFDECD;	height: 150px;	}
 .grid-item:nth-child(3)	{	background: #78F7B0;	height: 110px;	}
 .grid-item:nth-child(4)	{	background: #FDB5FF;	height: 320px;	}
