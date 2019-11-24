@@ -9,8 +9,7 @@ $(function() {
 	// Vars.
 		var	$window = $(window),
 			$body = $('body'),
-			$wrapper = $('#wrapper'),
-			$audio = $('audio/01.mp3');
+			$wrapper = $('#wrapper');
 
 	// Breakpoints.
 		skel.breakpoints({
@@ -37,11 +36,10 @@ $(function() {
 				baseZIndex: 10001,
 				useBodyOverflow: false,
 				usePopupEasyClose: true,
-				overlayColor: '#000000',
+				overlayColor: '#333333',
 				overlayOpacity: 0.75,
 				popupLoaderText: '',
 				fadeSpeed: 500,
-				audio.play()
 				usePopupDefaultStyling: false,
 				windowMargin: (skel.breakpoint('small').active ? 5 : 50)
 			});
