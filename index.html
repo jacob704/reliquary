@@ -30,6 +30,24 @@
 								<div>
 									<a href="https://www.youtube.com/watch?v=JhwoQwJdrp0">
 										<img src="images/thumbs/01.jpg" alt="" />
+										<audio src="${ song.url }" id="audio"></audio>
+<i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i>
+
+<script>
+    function play() {
+        var audio = document.getElementById('audio');
+        if (audio.paused) {
+            audio.play();
+            $('#play').removeClass('glyphicon-play-circle')
+            $('#play').addClass('glyphicon-pause')
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+            $('#play').addClass('glyphicon-play-circle')
+            $('#play').removeClass('glyphicon-pause')
+        }
+    }
+</script>
 										<h4>But My Mackin Ain't Easy
 										(2007)</h4>
 									</a>
