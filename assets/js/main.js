@@ -36,7 +36,7 @@ $(function() {
 				baseZIndex: 10001,
 				useBodyOverflow: false,
 				usePopupEasyClose: true,
-				overlayColor: '#333333',
+				overlayColor: '#000000',
 				overlayOpacity: 0.75,
 				popupLoaderText: '',
 				fadeSpeed: 500,
